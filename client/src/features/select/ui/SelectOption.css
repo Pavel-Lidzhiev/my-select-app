@@ -1,0 +1,20 @@
+.select-option {
+  height: 27px;
+  line-height: 27px;
+  padding: 0 10px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.select-option:hover {
+  background-color: #f0f0f0;
+}
+
+.select-option.keyboard-highlighted {
+  background-color: #e8e8e8;
+}
+
+.select-option.selected {
+  background-color: #dedede;
+}
